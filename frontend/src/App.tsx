@@ -10,7 +10,7 @@ const App: React.FC = () => {
   return (
     <>
       <BackgroundEffect />
-      <WebSocketProvider url="ws://your-websocket-server-url">
+      <WebSocketProvider url="ws://localhost:9090">
         <div className="container mx-auto p-4">
           {/* Title Header */}
           <div className="text-center mb-6">
